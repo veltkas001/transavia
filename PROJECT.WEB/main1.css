@@ -1,0 +1,1088 @@
+/*csslint order-alphabetical: false, outline-none: false, unique-headings: false, universal-selector: false, box-model: false, qualified-headings: false, Fallback-colors: false, box-sizing: false, compatible-vendor-prefixes: false*/
+
+/* Begin styling overzichtspagina en verhalenoverzicht */
+
+.bodyoverzicht {
+    background-color: #fff;
+    color: #fff;
+    padding: 0;
+    margin: auto;
+}
+
+.bodyverhaal {
+    color: #fff;
+    padding: 0;
+    margin: auto;
+    margin-top: -1em;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-top: 1.2em;
+}
+
+nav li a {
+    font-family: "Nexa Bold";
+    color: #00d66c;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 1em;
+    margin-right: 2.6em;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 3.5em;
+    background-color: #fff;
+    margin-top: -1em;
+}
+
+.headerverhaal {
+    margin-top: 0;
+}
+
+.h2overzicht {
+    font-family: "Nexa Bold";
+    font-size: 1.5em;
+    width: 7.35em;
+    margin-left: 0.9em;
+    margin-top: 1em;
+    padding: .5em;
+    line-height: 1.5em;
+    border-radius: 0.75rem;
+}
+
+.h2verhaal {
+    font-family: "Nexa Bold";
+    font-size: 1em;
+    width:20em;
+    margin-left: 0.7em;
+    margin-top: 1em;
+    padding: .5em;
+    line-height: 1.5em;
+    border-radius: 0.75rem;
+    opacity: 0.85;
+}
+
+.blok {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.blok > article {
+    flex-grow: 1;
+}
+
+.poverzicht {
+    font-family: "Nexa Bold";
+    font-size: 2em;
+    width: 5.3em;
+    margin-left: 0.7em;
+    margin-top: 1em;
+    padding: .5em;
+    line-height: 1.5em;
+    border-radius: 0.75rem;
+}
+
+.poverzichtlang {
+    font-family: "Nexa Bold";
+    font-size: 1em;
+    width: 10em;
+    margin-left: 1.3em;
+    margin-top: 2em;
+    padding: .5em;
+    line-height: 1.5em;
+    border-radius: 0.75rem;
+}
+
+.pverhaal {
+    font-family: "Nexa Bold";
+    font-size: 2em;
+    width: 5.3em;
+    margin-left: 0.4em;
+    margin-top: 1em;
+    padding: .5em;
+    line-height: 1.5em;
+    border-radius: 0.75rem;
+}
+
+.pverhaaltoerist {
+    font-family: "Nexa Bold";
+    font-size: 2em;
+    width:9em;
+    margin-left: 0.4em;
+    margin-top: 1em;
+    padding: .5em;
+    line-height: 1.5em;
+    border-radius: 0.75rem;
+}
+
+.pverhaalverteller {
+    font-family: "Nexa Bold";
+    font-size: 1.7em;
+    width: 10em;
+    height: 2em;
+    margin-left: 0.4em;
+    margin-top: 1.2em;
+    padding: .5em;
+    line-height: 1.5em;
+    border-radius: 0.75rem;
+}
+
+div {
+    overflow: hidden;
+} 
+
+.blok div {
+    min-width: 20em;
+    height: 100vw;
+}
+
+.blokverhaal div {
+    min-width: 20em;
+    height: 100vw;
+}
+
+ .article0 {
+   background-image:url('Images/mysterieus.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article0a {
+   background-image:url('Images/foto1.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+div article div {
+    transition: 1.5s;
+}
+div article div:hover {
+   background-size: 110% 110%;
+}
+
+.article0 h2 {
+     font-family: "Nexa Bold";
+     background-color: #ff3268; 
+}
+
+.article0a h2 {
+     font-family: "Nexa Bold";
+     background-color: #ff3268; 
+}
+
+.article0 p {
+     color:  #ff3268;
+     background-color: #fff; 
+}
+
+.article0a p {
+     color:  #ff3268;
+     background-color: #fff; 
+}
+
+.article1 {
+   background-image:url('Images/sport.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article1b {
+   background-image: url(Images/foto2.jpg);
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article1b h2 {
+     font-family: "Nexa Bold";
+     background-color: #2800a0; 
+}
+
+.article1b p {
+     color:  #2800a0;
+     background-color: #fff; 
+}
+
+.article1 h2 {
+     font-family: "Nexa Bold";
+     background-color: #2800a0;
+}
+
+.article1 p {
+     color:  #2800a0;
+     background-color: #fff; 
+}
+
+.article1 p {
+     color:  #2800a0;
+     background-color: #fff; 
+}
+
+@media (min-width: 40em) {
+    .blok div {
+    height: 50vw;
+}
+}
+    
+
+.article2 {
+   background-image:url('Images/modern.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article2 h2 {
+     font-family: "Nexa Bold";
+     background-color: #00d66c;
+}
+
+.article2 p {
+     color: #00d66c;
+     background-color: #fff; 
+}
+
+.article2c {
+   background-image:url('Images/foto3.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article2c h2 {
+     font-family: "Nexa Bold";
+     background-color: #00d66c;
+}
+
+.article2c p {
+     color: #00d66c;
+     background-color: #fff; 
+}
+
+@media (min-width: 60em) {
+    .blok div {
+    height: 33.333vw;
+    }
+    
+    .bodyoverzicht {
+    max-width: 79.999em;
+    color: #fff;
+    padding: 0;
+    margin: auto
+    
+}
+}
+
+
+@media (min-width: 80em) {
+    .blok div {
+    height: 26.333em;
+}
+}
+
+.article3 {
+   background-image:url('Images/eng.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article3 h2 {
+     font-family: "Nexa Bold";
+     background-color: #ff3268; 
+}
+
+.article3 p {
+     color: #ff3268;
+     background-color: #fff; 
+}
+
+.article3d {
+   background-image:url('Images/foto6.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article3d h2 {
+     font-family: "Nexa Bold";
+     background-color: #ff3268; 
+}
+
+.article3d p {
+     color: #ff3268;
+     background-color: #fff; 
+}
+
+.article4 {
+   background-image:url('Images/grappig.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article4 h2 {
+     font-family: "Nexa Bold";
+     background-color: #2800a0;
+}
+
+.article4 p {
+     color:  #2800a0;
+     background-color: #fff; 
+}
+
+.article4e {
+   background-image:url('Images/foto5.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article4e h2 {
+     font-family: "Nexa Bold";
+     background-color: #2800a0;
+}
+
+.article4e p {
+     color:  #2800a0;
+     background-color: #fff; 
+}
+
+.article5 {
+   background-image:url('Images/romantiek.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article5 h2 {
+     font-family: "Nexa Bold";
+     background-color: #2800a0;
+}
+
+.article5 p {
+     color: #2800a0;
+     background-color: #fff; 
+}
+
+.article5f {
+   background-image:url('Images/foto4.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article5f h2 {
+     font-family: "Nexa Bold";
+     background-color: #00d66c;
+}
+
+.article5f p {
+     color: #00d66c;
+     background-color: #fff; 
+}
+
+.article6g {
+   background-image:url('Images/foto7.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article6g h2 {
+     font-family: "Nexa Bold";
+     background-color: #ff3268;
+}
+
+.article6g p {
+     color: #ff3268;
+     background-color: #fff; 
+}
+
+.article7h {
+   background-image:url('Images/foto8.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article7h h2 {
+     font-family: "Nexa Bold";
+     background-color: #2800a0;
+}
+
+.article7h p {
+     color: #2800a0;
+     background-color: #fff; 
+}
+
+.article8i {
+   background-image:url('Images/foto9.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article8i h2 {
+     font-family: "Nexa Bold";
+     background-color: #00d66c;
+}
+
+.article8i p {
+     color: #00d66c;
+     background-color: #fff; 
+}
+
+.article9j {
+   background-image:url('Images/foto10.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article9j h2 {
+     font-family: "Nexa Bold";
+     background-color: #ff3268;
+}
+
+.article9j p {
+     color: #ff3268;
+     background-color: #fff; 
+}
+
+.article10k {
+   background-image:url('Images/foto11.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article10k h2 {
+     font-family: "Nexa Bold";
+     background-color: #2800a0;
+}
+
+.article10k p {
+     color: #2800a0;
+     background-color: #fff; 
+}
+
+.article11l {
+   background-image:url('Images/foto12.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article11l h2 {
+     font-family: "Nexa Bold";
+     background-color: #00d66c;
+}
+
+.article11l p {
+     color: #00d66c;
+     background-color: #fff; 
+}
+
+.article12m {
+   background-image:url('Images/foto15.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article12m h2 {
+     font-family: "Nexa Bold";
+     background-color: #ff3268;
+}
+
+.article12m p {
+     color: #ff3268;
+     background-color: #fff; 
+}
+
+.article13n {
+   background-image:url('Images/foto14.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article13n h2 {
+     font-family: "Nexa Bold";
+     background-color: #2800a0;
+}
+
+.article13n p {
+     color: #2800a0;
+     background-color: #fff; 
+}
+
+.article14o {
+   background-image:url('Images/foto13.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article14o h2 {
+     font-family: "Nexa Bold";
+     background-color: #00d66c;
+}
+
+.article14o p {
+     color: #00d66c;
+     background-color: #fff; 
+}
+
+.article15o {
+   background-image:url('Images/foto16.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article15o h2 {
+     font-family: "Nexa Bold";
+     background-color: #ff3268;
+}
+
+.article15o p {
+     color: #ff3268;
+     background-color: #fff; 
+}
+
+.article16o {
+   background-image:url('Images/foto17.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article16o h2 {
+     font-family: "Nexa Bold";
+     background-color: #2800a0;
+}
+
+.article16o p {
+     color: #2800a0;
+     background-color: #fff; 
+}
+
+.article17o {
+   background-image:url('Images/foto18.jpg');
+   background-size: 100% 100%;
+   background-position: 50% 50%;
+}
+
+.article17o h2 {
+     font-family: "Nexa Bold";
+     background-color: #00d66c;
+}
+
+.article17o p {
+     color: #00d66c;
+     background-color: #fff; 
+}
+
+
+.zoeken {
+    background-color: #f7f7f7;
+    height: 15em;
+    margin-top: 1em;
+}
+
+label {
+    font-family: "Nexa Bold";
+    color: #2800a0;
+    font-size: 1.5rem;
+    display: block;
+    width: 13.5em;
+    height: 1.5em;
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+}
+
+input {
+    font-family: "Nexa Light";
+    font-size: 1rem;
+    display: block;
+    width: 23em;
+    height: 2.5em;
+    padding-left: 0.7em;
+    border-radius: 0.5em;
+    background-color: #ededed;
+    border-width: 0.0625rem;
+    border-style: solid;
+    border-color: rgb(145, 163, 183);
+    margin: auto;
+}
+
+input:focus{
+    outline: none;
+    border-color: #00D66C;
+    transition: 0.3s;
+}
+
+.buttonverhaal1 {
+    font-family: "Nexa Bold";
+    color: white;
+    background-color: #ff3268;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.6em;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    max-width: 10em;
+    margin-left: 10.5em;
+    max-height: 2.5em;
+    margin-top: 1.5em;
+    border-radius: 2em;
+    border-style: none;
+    display:block;
+}
+
+.buttonverhaal1:hover {
+    color: #ff3268;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.buttonverhaal2 {
+    font-family: "Nexa Bold";
+    color: white;
+    background-color: #2800a0;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.6em;
+    box-shadow: inset 0 -.1875em .0625em #120145;
+    max-width: 10em;
+    margin-left: 11.5em;
+    max-height: 2.5em;
+    margin-top: 1.5em;
+    border-radius: 2em;
+    border-style: none;
+    display:block;
+}
+
+.buttonverhaal2:hover {
+    color: #2800a0;
+    background-color: #fff;
+    box-shadow: none;
+    
+}
+
+.buttonverhaal3 {
+    font-family: "Nexa Bold";
+    color: white;
+    background-color: #00d66c;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.6em;
+    box-shadow: inset 0 -.1875em .0625em #1e9162;
+    max-width: 10em;
+    margin-left: 11.5em;
+    max-height: 2.5em;
+    margin-top: 1.5em;
+    border-radius: 2em;
+    border-style: none;
+    display:block;
+}
+
+
+.buttonverhaal3:hover {
+    color: #00d66c;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.button {
+    font-family: "Nexa Bold";
+    color: white;
+    background-color: #ff3268;
+    text-align: center;
+    font-size: 1.0625;
+    line-height: 1.6em;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    width: 7em;
+    max-height: 2.5em;
+    margin-top: 1.5em;
+    border-radius: 2em;
+    border-style: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2800a0;
+    box-shadow: inset 0 -.1875em .0625em #120145;
+}
+
+.gordijn {
+    display: flex;
+    background-color: #f3e5d8;
+    width: 100%;
+    height: 25em;
+    margin-top: 1em;
+}
+
+.gordijntekst {
+    display: block;
+    margin: auto;
+    font-family: "Nexa Bold";
+    color: #2800a0;
+    font-size: 3.5em;
+    background: none;
+    width: 17em;
+    margin-left: 1em;
+    line-height: 1.3em;
+    transition: 1s;
+}
+
+@media (max-width: 60em) {
+    .gordijntekst {
+        font-size: 2em;
+        margin-top: 3em;
+}
+    .gordijn {
+        height: 17.5em;
+}
+}
+
+@media (max-width: 30em) {
+    .gordijntekst {
+        margin-left: 0.4em;
+        margin-top: 2.7em;
+}
+    .gordijn {
+         height: 15em;   
+}
+}
+
+@media (min-width: 70em) {
+    .gordijntekst {
+        margin-top: 2.1em;
+}
+}
+
+.tooltip-dialog {
+    cursor: pointer;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.scrolltop {
+    bottom: 0;
+    height: 3.125em;
+    display: block;
+    position: fixed;
+    margin: 0;
+    width: 3.125em;
+    right: 3.125em;
+    background-color: #2800a0;
+    background-size: .9375em;
+    border-radius: .5rem .5rem 0 0;
+    opacity: .9;
+}
+
+.pijl {
+    text-decoration: none;
+    text-align: center;
+    font-family: "Nexa Bold";
+    padding: 0.1em;
+    margin-top: 0.15em;
+    font-size: 3.3em;
+    color: #fff;
+}
+
+.transavialogomenu {
+    position: absolute;
+    width: 12em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+@media (max-width: 36em) {
+    .transavialogomenu {
+    width: 0;
+}
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Einde styling overzichtspagina */
+
+
+/* Begin styling aanmeldpagina */
+
+
+.bodyaanmeld {
+    background-image: url("https://images.unsplash.com/photo-1431608660976-4fe5bcc2112c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=f8abe0bad624bd1a34a0b6a78488a279"); 
+    background-size: cover; 
+    position: relative;
+    color: #fff;
+    padding: 0;
+    margin: auto;
+}
+    
+.h1aanmeld {
+    font-family: "Nexa Bold";
+    font-size: 2.375rem;
+    color: #00d66c;
+    margin-top: 4.6em;
+}
+
+.labelaanmeld {
+    font-family: "Nexa Bold";
+    color: #000;
+    font-size: 1rem;
+    display: block;
+    width: 18em;
+    height: 1.5em;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-left: 0;
+    text-align: left;
+}
+
+.inputaanmeld {
+    font-family: "Nexa Light";
+    display: block;
+    width: 18em;
+    height: 2.5em;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #ededed;
+    border-width: 0.0625rem;
+    border-style: solid;
+    border-color: rgb(145, 163, 183);
+    margin: auto;
+}
+
+.ingelogd {
+    position: absolute;
+    width: 2em;
+    height: 1.4em;
+    margin-top: 1em;
+}
+
+.labelingelogd {
+    position: absolute;
+    font-family: "Nexa Bold";
+    color: #000;
+    font-size: 1rem;
+    display: block;
+    width: 18em;
+    height: 1.5em;
+    margin: auto;
+    margin-top: 1.3em;
+    margin-left: 2em;
+    text-align: left;
+}
+
+.buttonaanmeld {
+    font-family: "Nexa Bold";
+    color: white;
+    background-color: #ff3268;
+    text-align: center;
+    font-size: 1.0265em;
+    line-height: 1.6em;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    max-width: 7em;
+    max-height: 2.5em;
+    margin-top: 3.2em;
+    border-radius: 2em;
+    border-style: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.buttonaanmeld:hover {
+    background-color: #00d66c;
+    box-shadow: inset 0 -.1875em .0625em #1e9162;
+}
+
+.grootblokaanmeld {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.blokaanmeld {
+    background-color: rgba(255,255,255,.9);
+    margin-left: 1.7em;
+    border-radius: 0.75rem;
+    width: 20.8em;
+    height: 28em;
+    padding: 0.5em;
+    margin: auto;
+    margin-top: 3em;
+}
+
+
+@media (min-width: 68em) {
+    .grootblokaanmeld{
+        margin-top: 4.5em;
+}
+}
+
+.logo {
+    width: 0;
+}
+
+@media (min-width: 68em) {
+    .logo {
+        width: 10em;
+        position: absolute;
+        margin-left: 52em;
+        margin-top: 2.4em;
+        opacity: .9;
+}
+}
+
+.logo2 {
+    width: 100%;
+    width: 13em;
+    opacity: 0.9;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    
+}
+
+@media (min-width: 68em) {
+    .logo2 {
+    width: 0;
+}
+}
+
+.zoekenaanmeld {
+    background-color: #f7f7f7;
+    height: 15em;
+    margin-top: 1.5em;
+    padding: -2em;
+}
+
+fieldset {
+    border: none;
+    margin-top: -10em;
+}
+
+legend {
+    display: none;
+}
+
+.headeraanmeld {
+    margin-top: 0;
+}
+
+@media (min-width: 68em) {
+    .headeraanmeld {
+        margin-top: -4.5em;
+}
+}
+
+.ask {
+    width: 0.8em;
+    position: absolute;
+    margin-left: 15.3em;
+    margin-top: -0.3em;
+}
+
+/* Einde styling aanmeldpagina */
+
+/* Begin styling zelfgemaakte verhalen */
+
+.bodynurk {
+    background-size: cover; 
+    background-attachment: fixed;
+    color: #fff;
+    padding: 0;
+    margin: auto;
+}
+
+.iphonedesktop {
+    position: absolute;
+    width: 35em;
+    margin-left: 23em;
+    margin-top: 5em;
+}
+
+.iphonemobile {
+    width: 0;
+}
+
+@media (max-width: 60em) {
+    .iphonedesktop {
+        margin-left: 2em;
+}
+}
+
+@media (max-width: 35em) {
+    .iphonedesktop {
+        width: 0;
+}
+    .iphonemobile {
+        width: 20em;
+        margin-left: 2.5em;
+}
+}
+
+.sportdesktop {
+    width: 100%;
+}
+
+.sporttablet {
+    width: 0;
+}
+
+.sportmobile {
+    width: 0;
+}
+
+@media (max-width: 60em) {
+    .sporttablet {
+        width: 100%;
+}
+     .sportdesktop {
+        width: 0;
+}
+}
+
+.sportmobile {
+    width: 0;
+}
+
+.sponmobile {
+    width: 0;
+}
+
+.spontablet {
+    width: 0;
+}
+
+.spondesktop {
+    width: 100%;
+    margin-top: 3em;
+}
+
+@media (max-width: 53em) {
+    .spontablet {
+        width: 100%;
+}
+    .spondesktop {
+        width: 0;
+}
+    .sportmobile {
+        width: 0;
+}
+}
+
+@media (max-width: 35em) {
+    .spondesktop {
+        width: 0;
+}
+    .spontablet {
+        width: 0;
+    }
+    .sponmobile {
+        width: 100%;
+}
+}
+
+/* Einde styling zelfgemaakte verhalen */
